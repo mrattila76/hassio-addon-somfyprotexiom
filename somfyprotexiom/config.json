@@ -1,0 +1,29 @@
+{
+  "name": "Somfy Protexiom",
+  "version": "0.1",
+  "slug": "somfy_protexiom",
+  "description": "switch on/off alarm Somfy Protexiom 600/5000",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "before",
+  "boot": "auto",
+  "options": {
+    "Model": "5000",
+    "IP Adress": "192.168.1.90",
+    "User Password": "6235",
+    "AuthCard Line 1": "5032|0831|3064|0594|5446|1555",
+    "AuthCard Line 2": "7829|8374|3421|3675|5665|5212",
+    "AuthCard Line 3": "1026|1739|2579|8449|8707|7626",
+    "AuthCard Line 4": "0531|9407|9542|1998|7371|6537",
+    "AuthCard Line 5": "0817|7003|0265|0213|4844|0585"
+  },
+  "schema": {
+    "Model": "str",
+    "IP Adress": "str",
+    "User Password": "str",
+    "AuthCard Line 1": "str",
+    "AuthCard Line 2": "str",
+    "AuthCard Line 3": "str",
+    "AuthCard Line 4": "str",
+    "AuthCard Line 5": "str"
+  }
+}
